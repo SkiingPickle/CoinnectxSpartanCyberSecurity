@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Hack Coinnect Chrome Extension",
+    "version": "1.0.0",
+    "description": "Chrome extension for Coinnect SDK integration",
+    "permissions": [
+      "identity",
+      "storage"
+    ],
+    "host_permissions": [
+      "http://localhost:8000/*",
+      "https://coinnect.us/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "oauth2": {
+      "client_id": "957998768535-avohh8qih7kiutc505cg1hm344itu7ut.apps.googleusercontent.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/userinfo.email",
+        "https://www.googleapis.com/auth/userinfo.profile"
+      ]
+    }
+  }

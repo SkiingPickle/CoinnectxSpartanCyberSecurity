@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coinnect</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Coinnect</h2>
+      <div id="loading" class="status">Initializing...</div>
+      <div id="status-container" style="display:none;">
+        <div id="user-info">
+          <p>Subscription: <span id="subscription-status">-</span></p>
+          <p>Credits: <span id="credits-count">-</span></p>
+        </div>
+        <div id="access-status" class="status"></div>
+      </div>
+      <button id="sign-in-btn" style="display:none;">Sign In</button>
+      <button id="payment-btn" style="display:none;">Go to Payment</button>
+    </div>
+    <!-- Include the bundled SDK -->
+    <script src="dist/coinnectSdk.bundle.js"></script>
+    <!-- Load the external popup script -->
+    <script src="popup.js"></script>
+  </body>
+</html>
