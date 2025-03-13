@@ -14,17 +14,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize the SDK
     coinnectSdk.initCoinnect(invoiceId)
       .then(result => {
-        // Hide the loading message
+        // Hide the loading message and show the status container
         loadingEl.style.display = "none";
-        // Show the status container with user info
         statusContainer.style.display = "block";
         
-        // Update subscription and credits information
+        // Always update subscription and credits information
         subscriptionStatusEl.textContent = result.subscription;
         creditsCountEl.textContent = result.credits;
         
-        // Update access status and show the payment button if needed
-        if(result.hasAccess) {
+        // Check access status:
+        // If the user is subscribed/have access, show "Access granted".
+        // Otherwise, show "Access denied" and reveal the "Go to Payment" button.
+        if (result.hasAccess) {
           accessStatusEl.textContent = "Access granted";
           accessStatusEl.classList.add("status-success");
         } else {
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       })
       .catch(error => {
+        // In case of error, display the error status
         loadingEl.style.display = "none";
         statusContainer.style.display = "block";
         accessStatusEl.textContent = "Error initializing: " + error.message;

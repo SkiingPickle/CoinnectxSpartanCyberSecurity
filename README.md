@@ -57,4 +57,4 @@ A huge thank you to all **Spartan Blockchain** and **Spartan Cybersecurity** mem
 
 - **\$1** – This one is simple; I estimate it will be found within 10 minutes.  
 - **\$5** – This one is a bit more difficult; think architecture and you’ll likely uncover it.  
-- **\$10** – This one is sneaky. I'll give you a hint, its a gateway between web2.0 and web3.0. Get creative (or don’t, so I can buy a fifth of tequila).
+- **\$10** – This one is sneaky. I'll give you a hint, its a gateway between web2.0 and web3.0. Get creative (or don’t, so I can buy a some tequila).
