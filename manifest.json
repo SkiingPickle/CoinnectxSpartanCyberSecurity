@@ -3,6 +3,7 @@
     "name": "Coinnect x Spartan Cybersecurity Dummy Extension",
     "version": "1.0.0",
     "description": "Chrome extension for Coinnect SDK integration",
+    "key": "hmoioafoklnhdmmcmkclbgnpkbmcdfef",
     "permissions": [
       "identity",
       "storage"
