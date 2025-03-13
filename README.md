@@ -1,6 +1,20 @@
 # CoinnectxSpartanCyberSecurity
 
 CoinnectxSpartanCyberSecurity is a **dummy** Chrome extension that integrates the Coinnect SDK for seamless authentication, access control, and payment redirection. This extension leverages Firebase and Google OAuth to authenticate users and verify their subscription or credit access before allowing payments.
+## Scope
+
+Smart Contracts on Polygon Mainnet:
+Uniswap POL to USDC on POL:
+0x9f681D1B22611f92cF3af383993E42b1E615b09c
+
+Web2 Side:
+API Server at:
+172.233.211.122:8000
+coinnect.us/api
+
+WebApp at
+172.233.211.122:3000
+coinnect.us
 
 ## Features
 
