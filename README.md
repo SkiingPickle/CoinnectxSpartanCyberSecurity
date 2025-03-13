@@ -1,8 +1,5 @@
 # CoinnectxSpartanCyberSecurity
 
-## Note:
-*Please talk to Ben, you will need a custom key to use*
-
 CoinnectxSpartanCyberSecurity is a **dummy** Chrome extension that integrates the Coinnect SDK for seamless authentication, access control, and payment redirection. This extension leverages Firebase and Google OAuth to authenticate users and verify their subscription or credit access before allowing payments.
 
 ## Features
